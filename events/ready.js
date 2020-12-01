@@ -14,7 +14,7 @@ module.exports = client => {
   //online = çevrimiçi
   console.log(`${client.user.id}                                                                                                                                                                     `)
   //client.user.setActivity(`${prefix}yardım | ${client.guilds.size} sunucu | ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} Kullanıcıyı`, { type: "LISTENING"});
-client.user.setActivity(`Youtube/YtGök`, { type: "WATCHING"});  
+client.user.setActivity(`Youtube/NoblesYT`, { type: "WATCHING"});  
 //LISTENING = DİNLİYOR
   //WATCHING = İZLİYOR
   //PLAYING = OYNUYOR 

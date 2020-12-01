@@ -4,9 +4,9 @@ exports.run = async(client, message, args) => {
  
  const Embed = new Discord.RichEmbed()
  .setTimestamp()
- .setAuthor("YT-at", client.user.avatarURL)
+ .setAuthor("MC-AT", client.user.avatarURL)
 .setColor("BLUE")
-.setTitle("YT-at BOT")
+.setTitle("MC-AT BOT")
  .setURL("https://discordapp.com/oauth2/authorize?client_id=647386467844227074&scope=bot&permissions=8")
  .setDescription(`
 
