@@ -49,7 +49,7 @@ module.exports.conf = {
 };
 
 module.exports.help = {
-  name: 'y',
+  name: 'yardım',
   description: 'Yardım Menüsünü Gösterir.',
   usage: 'y'
 };
