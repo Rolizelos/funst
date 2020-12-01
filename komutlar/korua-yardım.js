@@ -19,7 +19,7 @@ const embed = new Discord.RichEmbed()
      .addField('!koruma-sistemi-sil','Sunucunuzun verilerini veritabanından siler. (ayarları baştan yapmanız gerekir)')
      .addField('!spambotkorumasi','Spambot korumasını gösterir.')
      .addField('!güvenlikseviyesi','Sunucuya katılan üyelerin güvenilir olup olmadığını gösterir.')
-     .setFooter('© STARK-ZEHİR',client.user.avatarURL)
+     .setFooter('© Nobles',client.user.avatarURL)
      .setTimestamp()
      message.channel.send(embed)
 }
