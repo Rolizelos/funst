@@ -9,12 +9,12 @@ exports.run = (client, message, args) => {
 const embed = new Discord.RichEmbed()
 .setAuthor("MC-EŞŞEK", client.user.avatarURL)
 .setTitle("MC-EŞŞEK BOT")
-.setURL("https://goo.gl/vJvz9g")
+.setURL("BOT DAVET LİNKİ")
 .setDescription("Botu kendi sunucuna davet edebilirsin :)")
 .setColor("BLUE")
 .setTimestamp()
 .setFooter("© Mcadventuretime.com", client.user.avatarURL)
-.addField("Davet Linki", "https://goo.gl/vJvz9g")
+.addField("Davet Linki", "BOT DAVET LİNKİ")
 message.channel.send(embed)
 };
 exports.conf = {
